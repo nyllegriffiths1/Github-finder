@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile Viewer</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+    <h1>Github Profile Viewer</h1>
+    <label for="username">Enter Github username</label>
+    <input type="text" id="username" placeholder="Enter username">
+    <button onclick="fetchGitHubProfile()">Fetch Profile</button>
+
+    <div id="profile-container">
+        <h2>Profile Information</h2>
+        <img id="profile-image" src="" alt="Github Profile Image">
+        <p id="profile-name"></p>
+        <p id="profile-bio"></p>
+        <p id="profile-repos"></p>
+    </div>
+
+    
+    <script src="/Github-finder/script.js"></script>
+</body>
+</html>
